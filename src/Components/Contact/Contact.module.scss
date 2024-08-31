@@ -1,0 +1,181 @@
+.contactContainer {
+  width: 100%;
+  height: 1800px;
+  //   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  align-items: center;
+  .contactUs {
+    width: 100%;
+    height: 720px;
+    background-color: #e7ebfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .contact {
+      width: 1280px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .contactText {
+        width: 480px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2 {
+          font-size: 64px;
+        }
+        p {
+          font-size: 20px;
+          color: #6478b5;
+        }
+        .contactButtons {
+          width: 400px;
+          display: flex;
+          justify-content: space-between;
+          button {
+            width: 180px;
+            height: 74px;
+            font-size: 16px;
+            border: none;
+            background-color: #2e4fd7;
+            color: white;
+            transition: 0.5s;
+            p {
+              color: white;
+              font-size: 16px;
+            }
+            &:hover {
+              background-color: #e56024;
+              transition: 0.5s;
+            }
+          }
+        }
+        .contactSponsors {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          a {
+            font-size: 25px;
+            font-weight: bold;
+            color: black;
+            transition: 0.3s;
+            &:hover {
+              color: #e56024;
+              transition: 0.3s;
+            }
+          }
+        }
+      }
+      .contactRegister {
+        width: 487px;
+        height: 600px;
+        background-color: white;
+        -webkit-box-shadow: -1px 1px 12px 2px rgba(0, 0, 0, 0.66);
+        -moz-box-shadow: -1px 1px 12px 2px rgba(0, 0, 0, 0.66);
+        box-shadow: -1px 1px 12px 2px rgba(0, 0, 0, 0.66);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .register {
+          width: 440px;
+          height: 550px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          .registerInp {
+            width: 98%;
+            //   height: 100px;
+            display: flex;
+            justify-content: space-between;
+            .inp {
+              width: 204px;
+              height: 52px;
+            }
+          }
+          .topic {
+            width: 427px;
+            height: 52px;
+          }
+          .message {
+            width: 427px;
+            height: 122px;
+          }
+          button {
+            width: 422px;
+            height: 56px;
+            font-size: 16px;
+            border: none;
+            background-color: #2e4fd7;
+            color: white;
+            transition: 0.5s;
+            &:hover {
+              background-color: #e56024;
+              transition: 0.5s;
+            }
+          }
+        }
+      }
+    }
+  }
+  .ourOffice {
+    width: 1280px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .officeText {
+      width: 100%;
+      //   border: 1px solid;
+      display: flex;
+      justify-content: space-between;
+      h3 {
+        font-size: 52px;
+      }
+      p {
+        width: 420px;
+        font-size: 20px;
+      }
+    }
+    .office {
+      width: 1280px;
+      height: 470px;
+      //   border: 1px solid;
+      display: flex;
+      justify-content: space-between;
+      .officeMap {
+        width: 544px;
+        height: 470px;
+        border: 1px solid;
+        border-color: gray;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        h4 {
+          font-size: 32px;
+        }
+        p {
+          font-size: 20px;
+        }
+        button {
+          width: 150px;
+          height: 24px;
+          border: none;
+          color: #2e4fd7;
+          background-color: white;
+          transition: 0.5s;
+          font-size: 20px;
+          &:hover {
+            color: #e56024;
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+  }
+}

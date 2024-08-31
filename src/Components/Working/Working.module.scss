@@ -1,0 +1,49 @@
+.working {
+  width: 1440px;
+  height: 500px;
+  margin: 0 auto;
+  .workingBox {
+    width: 1280px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h2 {
+      font-size: 52px;
+    }
+    .workingBenefit {
+      width: 1280px;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      .workBenefitFirst {
+        // border: 1px solid;
+        width: 40%;
+        height: 80px;
+        display: flex;
+        gap: 20px;
+        .workBenefitText {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          h3 {
+            font-size: 24px;
+          }
+          p {
+            width: 400px;
+          }
+        }
+        .circle {
+          width: 65px;
+          height: 65px;
+          border-radius: 50%;
+          background-color: #e7ebfc;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
